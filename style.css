@@ -1,0 +1,39 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/619950/pexels-photo-619950.jpeg?cs=srgb&dl=pexels-pripicart-619950.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 1000px;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.email h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.admin {
+    margin-bottom: -50%;
+    text-align: center;
+}
+
+h1, ul, li {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), -2px -2px 4px rgba(0, 0, 0, 0.7), 2px -2px 4px rgba(0, 0, 0, 0.7), -2px 2px 4px rgba(0, 0, 0, 0.7);
+}
